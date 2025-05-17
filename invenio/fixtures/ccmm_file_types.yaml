@@ -1,0 +1,1525 @@
+id: 7Z
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/7Z
+title:
+  cs: 7z
+  en: 7z
+---
+id: AAB
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/AAB
+title:
+  cs: AAB
+  en: AAB
+---
+id: AAC
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/AAC
+title:
+  cs: AAC
+  en: AAC
+---
+id: AKN4EU
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/AKN4EU
+title:
+  cs: AKN4EU file
+  en: AKN4EU file
+---
+id: AKN4EU_LEG
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/AKN4EU_LEG
+title:
+  cs: AKN4EU LEG
+  en: AKN4EU LEG
+---
+id: AKN4EU_ZIP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/AKN4EU_ZIP
+title:
+  cs: AKN4EU ZIP
+  en: AKN4EU ZIP
+---
+id: APK
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/APK
+title:
+  cs: APK
+  en: APK
+---
+id: APPX
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/APPX
+title:
+  cs: AppX
+  en: AppX
+---
+id: ARC
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ARC
+title:
+  cs: ARC
+  en: ARC
+---
+id: ARCINFO_COV
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ARCINFO_COV
+title:
+  cs: ArcInfo coverage
+  en: ArcInfo coverage
+---
+id: ARC_GZ
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ARC_GZ
+title:
+  cs: ARC GZ
+  en: ARC GZ
+---
+id: ARJ
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ARJ
+title:
+  cs: ARJ
+  en: ARJ
+---
+id: ARROW_FILE
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ARROW_FILE
+title:
+  cs: Arrow file
+  en: Arrow file
+---
+id: ARROW_STREAM
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ARROW_STREAM
+title:
+  cs: Arrow stream
+  en: Arrow stream
+---
+id: ATOM
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ATOM
+title:
+  cs: Atom Feed
+  en: Atom Feed
+---
+id: AZW
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/AZW
+title:
+  cs: Amazon Kindle eBook
+  en: Amazon Kindle eBook
+---
+id: BIN
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/BIN
+title:
+  cs: Binary Data
+  en: Binary Data
+---
+id: BITS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/BITS
+title:
+  cs: BITS XML
+  en: BITS XML
+---
+id: BMP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/BMP
+title:
+  cs: Bitmap Image File
+  en: Bitmap Image File
+---
+id: BWF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/BWF
+title:
+  cs: BWF
+  en: BWF
+---
+id: BZIP2
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/BZIP2
+title:
+  cs: bzip2
+  en: bzip2
+---
+id: CSS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/CSS
+title:
+  cs: CSS
+  en: CSS
+---
+id: CSV
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/CSV
+title:
+  cs: CSV
+  en: CSV
+---
+id: DAPK
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DAPK
+title:
+  cs: DAPK
+  en: DAPK
+---
+id: DBF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DBF
+title:
+  cs: DBF
+  en: DBF
+---
+id: DCR
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DCR
+title:
+  cs: DCR File
+  en: DCR File
+---
+id: DEB
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DEB
+title:
+  cs: deb
+  en: deb
+---
+id: DGN
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DGN
+title:
+  cs: DGN
+  en: DGN
+---
+id: DMG
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DMG
+title:
+  cs: DMG
+  en: DMG
+---
+id: DMP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DMP
+title:
+  cs: Oracle Dump
+  en: Oracle Dump
+---
+id: DOC
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DOC
+title:
+  cs: Word DOC
+  en: Word DOC
+---
+id: DOCX
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DOCX
+title:
+  cs: Word DOCX
+  en: Word DOCX
+---
+id: DTD_SGML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DTD_SGML
+title:
+  cs: SGML DTD
+  en: SGML DTD
+---
+id: DTD_XML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DTD_XML
+title:
+  cs: XML DTD
+  en: XML DTD
+---
+id: DWCA
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DWCA
+title:
+  cs: DwC-A
+  en: DwC-A
+---
+id: DWG
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DWG
+title:
+  cs: DWG
+  en: DWG
+---
+id: DXF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/DXF
+title:
+  cs: DXF
+  en: DXF
+---
+id: E00
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/E00
+title:
+  cs: E00
+  en: E00
+---
+id: EAR
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/EAR
+title:
+  cs: EAR
+  en: EAR
+---
+id: ECW
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ECW
+title:
+  cs: ECW
+  en: ECW
+---
+id: EFORMS_XML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/EFORMS_XML
+title:
+  cs: eForms XML
+  en: eForms XML
+---
+id: EPS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/EPS
+title:
+  cs: Encapsulated Postscript
+  en: Encapsulated Postscript
+---
+id: EPUB
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/EPUB
+title:
+  cs: EPUB
+  en: EPUB
+---
+id: ETSI_TSL
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ETSI_TSL
+title:
+  cs: ETSI TSL
+  en: ETSI TSL
+---
+id: ETSI_XML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ETSI_XML
+title:
+  cs: ETSI signature validation report
+  en: ETSI signature validation report
+---
+id: EXE
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/EXE
+title:
+  cs: EXE
+  en: EXE
+---
+id: FMX2
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/FMX2
+title:
+  cs: Formex 2
+  en: Formex 2
+---
+id: FMX3
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/FMX3
+title:
+  cs: Formex 3
+  en: Formex 3
+---
+id: FMX4
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/FMX4
+title:
+  cs: Formex 4
+  en: Formex 4
+---
+id: FMX4_ZIP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/FMX4_ZIP
+title:
+  cs: FMX4 ZIP
+  en: FMX4 ZIP
+---
+id: GDB
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/GDB
+title:
+  cs: Esri File Geodatabase
+  en: Esri File Geodatabase
+---
+id: GEOJSON
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/GEOJSON
+title:
+  cs: GeoJSON
+  en: GeoJSON
+---
+id: GEOTIFF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/GEOTIFF
+title:
+  cs: GeoTIFF
+  en: GeoTIFF
+---
+id: GIF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/GIF
+title:
+  cs: GIF
+  en: GIF
+---
+id: GML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/GML
+title:
+  cs: GML
+  en: GML
+---
+id: GMZ
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/GMZ
+title:
+  cs: Zipped GML
+  en: Zipped GML
+---
+id: GPKG
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/GPKG
+title:
+  cs: GeoPackage
+  en: GeoPackage
+---
+id: GPX
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/GPX
+title:
+  cs: GPX
+  en: GPX
+---
+id: GRID
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/GRID
+title:
+  cs: Esri binary grid
+  en: Esri binary grid
+---
+id: GRID_ASCII
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/GRID_ASCII
+title:
+  cs: Esri ASCII grid
+  en: Esri ASCII grid
+---
+id: GTFS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/GTFS
+title:
+  cs: GTFS
+  en: GTFS
+---
+id: GZIP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/GZIP
+title:
+  cs: GNU zip
+  en: GNU zip
+---
+id: HDF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/HDF
+title:
+  cs: HDF
+  en: HDF
+---
+id: HDT
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/HDT
+title:
+  cs: HDT
+  en: HDT
+---
+id: HTML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/HTML
+title:
+  cs: HTML
+  en: HTML
+---
+id: HTML5
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/HTML5
+title:
+  cs: HTML5
+  en: HTML5
+---
+id: HTML_SIMPL
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/HTML_SIMPL
+title:
+  cs: HTML simplified
+  en: HTML simplified
+---
+id: ICS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ICS
+title:
+  cs: ICalendar
+  en: ICalendar
+---
+id: IMMC_XML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/IMMC_XML
+title:
+  cs: IMMC XML message
+  en: IMMC XML message
+---
+id: INDD
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/INDD
+title:
+  cs: INDD
+  en: INDD
+---
+id: IPA
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/IPA
+title:
+  cs: IPA
+  en: IPA
+---
+id: ISO
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ISO
+title:
+  cs: ISO image
+  en: ISO image
+---
+id: ISO_ZIP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ISO_ZIP
+title:
+  cs: Zipped ISO image
+  en: Zipped ISO image
+---
+id: JAR
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/JAR
+title:
+  cs: JAR
+  en: JAR
+---
+id: JATS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/JATS
+title:
+  cs: JATS XML
+  en: JATS XML
+---
+id: JPEG
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/JPEG
+title:
+  cs: JPEG
+  en: JPEG
+---
+id: JPEG2000
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/JPEG2000
+title:
+  cs: JPEG 2000
+  en: JPEG 2000
+---
+id: JS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/JS
+title:
+  cs: JavaScript
+  en: JavaScript
+---
+id: JSON
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/JSON
+title:
+  cs: JSON
+  en: JSON
+---
+id: JSON_LD
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/JSON_LD
+title:
+  cs: JSON-LD
+  en: JSON-LD
+---
+id: KML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/KML
+title:
+  cs: KML
+  en: KML
+---
+id: KMZ
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/KMZ
+title:
+  cs: KMZ
+  en: KMZ
+---
+id: LAS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/LAS
+title:
+  cs: LASer file
+  en: LASer file
+---
+id: LAZ
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/LAZ
+title:
+  cs: Compressed LAS file
+  en: Compressed LAS file
+---
+id: LEG
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/LEG
+title:
+  cs: LEG
+  en: LEG
+---
+id: LEGALHTML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/LEGALHTML
+title:
+  cs: LegalHTML
+  en: LegalHTML
+---
+id: LHA
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/LHA
+title:
+  cs: LHA
+  en: LHA
+---
+id: LPK
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/LPK
+title:
+  cs: Layer package
+  en: Layer package
+---
+id: LZIP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/LZIP
+title:
+  cs: lzip
+  en: lzip
+---
+id: LZMA
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/LZMA
+title:
+  cs: lzma
+  en: lzma
+---
+id: LZO
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/LZO
+title:
+  cs: lzo
+  en: lzo
+---
+id: MAP_PRVW
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MAP_PRVW
+title:
+  cs: ArcGIS Map Preview
+  en: ArcGIS Map Preview
+---
+id: MAP_SRVC
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MAP_SRVC
+title:
+  cs: ArcGIS Map Service
+  en: ArcGIS Map Service
+---
+id: MARKDOWN
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MARKDOWN
+title:
+  cs: Markdown
+  en: Markdown
+---
+id: MATHML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MATHML
+title:
+  cs: MathML
+  en: MathML
+---
+id: MATLAB_MAT
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MATLAB_MAT
+title:
+  cs: MATLAB MAT
+  en: MATLAB MAT
+---
+id: MBOX
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MBOX
+title:
+  cs: MBOX
+  en: MBOX
+---
+id: MDB
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MDB
+title:
+  cs: MDB
+  en: MDB
+---
+id: METS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/METS
+title:
+  cs: METS XML
+  en: METS XML
+---
+id: METS_ZIP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/METS_ZIP
+title:
+  cs: METS package
+  en: METS package
+---
+id: MHTML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MHTML
+title:
+  cs: MHTML
+  en: MHTML
+---
+id: MIF_MID
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MIF_MID
+title:
+  cs: MIF/MID
+  en: MIF/MID
+---
+id: MOBI
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MOBI
+title:
+  cs: Mobipocket eBook
+  en: Mobipocket eBook
+---
+id: MOP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MOP
+title:
+  cs: MOP
+  en: MOP
+---
+id: MOV
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MOV
+title:
+  cs: MOV
+  en: MOV
+---
+id: MP3
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MP3
+title:
+  cs: MP3
+  en: MP3
+---
+id: MPEG2
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MPEG2
+title:
+  cs: MPEG-2
+  en: MPEG-2
+---
+id: MPEG4
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MPEG4
+title:
+  cs: MPEG-4
+  en: MPEG-4
+---
+id: MPEG4_AVC
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MPEG4_AVC
+title:
+  cs: MPEG-4 AVC
+  en: MPEG-4 AVC
+---
+id: MRSID
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MRSID
+title:
+  cs: MrSID
+  en: MrSID
+---
+id: MSG_HTTP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MSG_HTTP
+title:
+  cs: HTTP Message
+  en: HTTP Message
+---
+id: MSI
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MSI
+title:
+  cs: MSI
+  en: MSI
+---
+id: MXD
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/MXD
+title:
+  cs: MXD
+  en: MXD
+---
+id: N3
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/N3
+title:
+  cs: N3
+  en: N3
+---
+id: NETCDF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/NETCDF
+title:
+  cs: NetCDF
+  en: NetCDF
+---
+id: OAPK
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/OAPK
+title:
+  cs: OAPK
+  en: OAPK
+---
+id: OCTET
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/OCTET
+title:
+  cs: Octet Stream
+  en: Octet Stream
+---
+id: ODB
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ODB
+title:
+  cs: OpenDocument Database
+  en: OpenDocument Database
+---
+id: ODC
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ODC
+title:
+  cs: OpenDocument Chart
+  en: OpenDocument Chart
+---
+id: ODF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ODF
+title:
+  cs: ODF
+  en: ODF
+---
+id: ODG
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ODG
+title:
+  cs: OpenDocument Image
+  en: OpenDocument Image
+---
+id: ODP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ODP
+title:
+  cs: ODP
+  en: ODP
+---
+id: ODS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ODS
+title:
+  cs: ODS
+  en: ODS
+---
+id: ODT
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ODT
+title:
+  cs: ODT
+  en: ODT
+---
+id: OP_DATPRO
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/OP_DATPRO
+title:
+  cs: Předběžné údaje
+  en: Provisional data
+---
+id: OVF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/OVF
+title:
+  cs: OVF
+  en: OVF
+---
+id: OWL
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/OWL
+title:
+  cs: OWL
+  en: OWL
+---
+id: PARQUET
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PARQUET
+title:
+  cs: Parquet
+  en: Parquet
+---
+id: PDF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PDF
+title:
+  cs: PDF
+  en: PDF
+---
+id: PDF1X
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PDF1X
+title:
+  cs: PDF1X
+  en: PDF1X
+---
+id: PDFA1A
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PDFA1A
+title:
+  cs: PDF/A-1a
+  en: PDF/A-1a
+---
+id: PDFA1B
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PDFA1B
+title:
+  cs: PDF/A-1b
+  en: PDF/A-1b
+---
+id: PDFA2A
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PDFA2A
+title:
+  cs: PDF/A-2a
+  en: PDF/A-2a
+---
+id: PDFA2B
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PDFA2B
+title:
+  cs: PDF/A-2b
+  en: PDF/A-2b
+---
+id: PDFA3
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PDFA3
+title:
+  cs: PDFA-3
+  en: PDFA-3
+---
+id: PDFUA
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PDFUA
+title:
+  cs: PDF/UA
+  en: PDF/UA
+---
+id: PDFX
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PDFX
+title:
+  cs: PDF/X
+  en: PDF/X
+---
+id: PDFX1A
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PDFX1A
+title:
+  cs: PDF/X-1a
+  en: PDF/X-1a
+---
+id: PDFX2A
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PDFX2A
+title:
+  cs: PDF/X-2a
+  en: PDF/X-2a
+---
+id: PDFX4
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PDFX4
+title:
+  cs: PDF/X-4
+  en: PDF/X-4
+---
+id: PL
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PL
+title:
+  cs: Perl script
+  en: Perl script
+---
+id: PNG
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PNG
+title:
+  cs: PNG
+  en: PNG
+---
+id: PPS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PPS
+title:
+  cs: PowerPoint Slide Show
+  en: PowerPoint Slide Show
+---
+id: PPSX
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PPSX
+title:
+  cs: PowerPoint PPSX
+  en: PowerPoint PPSX
+---
+id: PPT
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PPT
+title:
+  cs: PowerPoint PPT
+  en: PowerPoint PPT
+---
+id: PPTX
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PPTX
+title:
+  cs: PowerPoint PPTX
+  en: PowerPoint PPTX
+---
+id: PS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PS
+title:
+  cs: PS
+  en: PS
+---
+id: PSD
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PSD
+title:
+  cs: PSD
+  en: PSD
+---
+id: PWP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/PWP
+title:
+  cs: PWP
+  en: PWP
+---
+id: QGS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/QGS
+title:
+  cs: QGS
+  en: QGS
+---
+id: RAR
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RAR
+title:
+  cs: RAR
+  en: RAR
+---
+id: RDF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RDF
+title:
+  cs: RDF
+  en: RDF
+---
+id: RDFA
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RDFA
+title:
+  cs: RDFa
+  en: RDFa
+---
+id: RDF_N_QUADS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RDF_N_QUADS
+title:
+  cs: RDF N-Quads
+  en: RDF N-Quads
+---
+id: RDF_N_TRIPLES
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES
+title:
+  cs: RDF N-Triples
+  en: RDF N-Triples
+---
+id: RDF_THRIFT
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RDF_THRIFT
+title:
+  cs: RDF Thrift
+  en: RDF Thrift
+---
+id: RDF_TRIG
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RDF_TRIG
+title:
+  cs: RDF TriG
+  en: RDF TriG
+---
+id: RDF_TRIX
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RDF_TRIX
+title:
+  cs: RDF TriX
+  en: RDF TriX
+---
+id: RDF_TURTLE
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE
+title:
+  cs: RDF Turtle
+  en: RDF Turtle
+---
+id: RDF_XML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RDF_XML
+title:
+  cs: RDF XML
+  en: RDF XML
+---
+id: REST
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/REST
+title:
+  cs: Esri REST
+  en: Esri REST
+---
+id: RPM
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RPM
+title:
+  cs: RPM
+  en: RPM
+---
+id: RSS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RSS
+title:
+  cs: RSS feed
+  en: RSS feed
+---
+id: RTF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/RTF
+title:
+  cs: RTF
+  en: RTF
+---
+id: SB3
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/SB3
+title:
+  cs: sb3
+  en: sb3
+---
+id: SCH
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/SCH
+title:
+  cs: Schematron
+  en: Schematron
+---
+id: SCHEMA_XML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/SCHEMA_XML
+title:
+  cs: XML schema
+  en: XML schema
+---
+id: SDMX
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/SDMX
+title:
+  cs: SDMX
+  en: SDMX
+---
+id: SGML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/SGML
+title:
+  cs: SGML
+  en: SGML
+---
+id: SHP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/SHP
+title:
+  cs: Esri Shape
+  en: Esri Shape
+---
+id: SKOS_XML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/SKOS_XML
+title:
+  cs: SKOS
+  en: SKOS
+---
+id: SPARQLQ
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/SPARQLQ
+title:
+  cs: SPARQL
+  en: SPARQL
+---
+id: SPARQLQRES
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/SPARQLQRES
+title:
+  cs: SPARQL results
+  en: SPARQL results
+---
+id: SQL
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/SQL
+title:
+  cs: SQL
+  en: SQL
+---
+id: STL
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/STL
+title:
+  cs: StL
+  en: StL
+---
+id: SVG
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/SVG
+title:
+  cs: SVG
+  en: SVG
+---
+id: SWM
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/SWM
+title:
+  cs: SWM
+  en: SWM
+---
+id: TAB
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/TAB
+title:
+  cs: MapInfo TAB file
+  en: MapInfo TAB file
+---
+id: TAB_RSTR
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/TAB_RSTR
+title:
+  cs: MapInfo TAB raster file
+  en: MapInfo TAB raster file
+---
+id: TAR
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/TAR
+title:
+  cs: TAR
+  en: TAR
+---
+id: TAR_GZ
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/TAR_GZ
+title:
+  cs: TAR GZ
+  en: TAR GZ
+---
+id: TAR_XZ
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/TAR_XZ
+title:
+  cs: TAR XZ
+  en: TAR XZ
+---
+id: THRIFT_BINARY
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/THRIFT_BINARY
+title:
+  cs: Thrift binary
+  en: Thrift binary
+---
+id: THRIFT_COMPACT
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/THRIFT_COMPACT
+title:
+  cs: Thrift compact
+  en: Thrift compact
+---
+id: THRIFT_JSON
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/THRIFT_JSON
+title:
+  cs: Thrift JSON
+  en: Thrift JSON
+---
+id: TIFF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/TIFF
+title:
+  cs: TIFF
+  en: TIFF
+---
+id: TIFF_FX
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/TIFF_FX
+title:
+  cs: TIFF FX
+  en: TIFF FX
+---
+id: TMX
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/TMX
+title:
+  cs: TMX
+  en: TMX
+---
+id: TSV
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/TSV
+title:
+  cs: TSV
+  en: TSV
+---
+id: TXT
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/TXT
+title:
+  cs: Plain text
+  en: Plain text
+---
+id: UNGEN
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/UNGEN
+title:
+  cs: Ungen
+  en: Ungen
+---
+id: WAR
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/WAR
+title:
+  cs: WAR
+  en: WAR
+---
+id: WARC
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/WARC
+title:
+  cs: WARC
+  en: WARC
+---
+id: WARC_GZ
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/WARC_GZ
+title:
+  cs: WARC GZ
+  en: WARC GZ
+---
+id: WAV
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/WAV
+title:
+  cs: WAV
+  en: WAV
+---
+id: WCS_SRVC
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/WCS_SRVC
+title:
+  cs: WCS
+  en: WCS
+---
+id: WEBP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/WEBP
+title:
+  cs: WebP
+  en: WebP
+---
+id: WFS_SRVC
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/WFS_SRVC
+title:
+  cs: WFS
+  en: WFS
+---
+id: WIM
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/WIM
+title:
+  cs: WIM
+  en: WIM
+---
+id: WMS_SRVC
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/WMS_SRVC
+title:
+  cs: WMS
+  en: WMS
+---
+id: WMTS_SRVC
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/WMTS_SRVC
+title:
+  cs: WMTS
+  en: WMTS
+---
+id: WORLD
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/WORLD
+title:
+  cs: World file
+  en: World file
+---
+id: XHTML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XHTML
+title:
+  cs: XHTML
+  en: XHTML
+---
+id: XHTML5
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XHTML5
+title:
+  cs: XHTML5
+  en: XHTML5
+---
+id: XHTML_SIMPL
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XHTML_SIMPL
+title:
+  cs: XHTML simplified
+  en: XHTML simplified
+---
+id: XLIFF
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XLIFF
+title:
+  cs: XLIFF
+  en: XLIFF
+---
+id: XLS
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XLS
+title:
+  cs: Excel XLS
+  en: Excel XLS
+---
+id: XLSB
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XLSB
+title:
+  cs: XLSB
+  en: XLSB
+---
+id: XLSM
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XLSM
+title:
+  cs: XLSM
+  en: XLSM
+---
+id: XLSX
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XLSX
+title:
+  cs: Excel XLSX
+  en: Excel XLSX
+---
+id: XML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XML
+title:
+  cs: XML
+  en: XML
+---
+id: XSLFO
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XSLFO
+title:
+  cs: XSL-FO
+  en: XSL-FO
+---
+id: XSLT
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XSLT
+title:
+  cs: XSLT
+  en: XSLT
+---
+id: XYZ
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XYZ
+title:
+  cs: XYZ Chemical File
+  en: XYZ Chemical File
+---
+id: XZ
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/XZ
+title:
+  cs: xz
+  en: xz
+---
+id: YAML
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/YAML
+title:
+  cs: YAML
+  en: YAML
+---
+id: Z
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/Z
+title:
+  cs: Z
+  en: Z
+---
+id: ZIP
+props:
+  iri: http://publications.europa.eu/resource/authority/file-type/ZIP
+title:
+  cs: ZIP
+  en: ZIP

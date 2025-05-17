@@ -1,0 +1,769 @@
+id: 1YTN-RJZE
+props:
+  iri: http://purl.org/coar/resource_type/1YTN-RJZE
+title:
+  cs: court documents
+  en: court documents
+---
+id: 2H0M-X761
+props:
+  iri: http://purl.org/coar/resource_type/2H0M-X761
+title:
+  cs: geospatial data
+  en: geospatial data
+---
+id: 43KC-T6DC
+props:
+  iri: http://purl.org/coar/resource_type/43KC-T6DC
+title:
+  cs: magazine article
+  en: magazine article
+---
+id: 542X-3S04
+props:
+  iri: http://purl.org/coar/resource_type/542X-3S04
+title:
+  cs: design
+  en: design
+---
+id: 63NG-B465
+props:
+  iri: http://purl.org/coar/resource_type/63NG-B465
+title:
+  cs: experimental data
+  en: experimental data
+---
+id: 6NC7-GK9S
+props:
+  iri: http://purl.org/coar/resource_type/6NC7-GK9S
+title:
+  cs: transcription
+  en: transcription
+---
+id: 8KJG-QS0Y
+props:
+  iri: http://purl.org/coar/resource_type/8KJG-QS0Y
+title:
+  cs: research instrument
+  en: research instrument
+---
+id: 9DKX-KSAF
+props:
+  iri: http://purl.org/coar/resource_type/9DKX-KSAF
+title:
+  cs: utility model
+  en: utility model
+---
+id: A8F1-NPV9
+props:
+  iri: http://purl.org/coar/resource_type/A8F1-NPV9
+title:
+  cs: genomic data
+  en: genomic data
+---
+id: ACF7-8YT9
+props:
+  iri: http://purl.org/coar/resource_type/ACF7-8YT9
+title:
+  cs: aggregated data
+  en: aggregated data
+---
+id: AM6W-6QAW
+props:
+  iri: http://purl.org/coar/resource_type/AM6W-6QAW
+title:
+  cs: encoded data
+  en: encoded data
+---
+id: BW7T-YM2G
+props:
+  iri: http://purl.org/coar/resource_type/BW7T-YM2G
+title:
+  cs: layout design
+  en: layout design
+---
+id: C53B-JCY5
+props:
+  iri: http://purl.org/coar/resource_type/C53B-JCY5
+title:
+  cs: design patent
+  en: design patent
+---
+id: CQMR-7K63
+props:
+  iri: http://purl.org/coar/resource_type/CQMR-7K63
+title:
+  cs: recorded data
+  en: recorded data
+---
+id: D97F-VB57
+props:
+  iri: http://purl.org/coar/resource_type/D97F-VB57
+title:
+  cs: commentary
+  en: commentary
+---
+id: DD58-GFSX
+props:
+  iri: http://purl.org/coar/resource_type/DD58-GFSX
+title:
+  cs: measurement and test data
+  en: measurement and test data
+---
+id: DX5J-TA9R
+props:
+  iri: http://purl.org/coar/resource_type/DX5J-TA9R
+title:
+  cs: knowledge synthesis protocol
+  en: knowledge synthesis protocol
+---
+id: EHVM-H119
+props:
+  iri: http://purl.org/coar/resource_type/EHVM-H119
+title:
+  cs: research data
+  en: research data
+---
+id: F8RT-TJK0
+props:
+  iri: http://purl.org/coar/resource_type/F8RT-TJK0
+title:
+  cs: artistic work
+  en: artistic work
+---
+id: FF4C-28RK
+props:
+  iri: http://purl.org/coar/resource_type/FF4C-28RK
+title:
+  cs: observational data
+  en: observational data
+---
+id: FXF3-D3G7
+props:
+  iri: http://purl.org/coar/resource_type/FXF3-D3G7
+title:
+  cs: compiled data
+  en: compiled data
+---
+id: GPQ7-G5VE
+props:
+  iri: http://purl.org/coar/resource_type/GPQ7-G5VE
+title:
+  cs: plant variety protection
+  en: plant variety protection
+---
+id: GSZA-Y7V7
+props:
+  iri: http://purl.org/coar/resource_type/GSZA-Y7V7
+title:
+  cs: knowledge organization system
+  en: knowledge organization system
+---
+id: H41Y-FW7B
+props:
+  iri: http://purl.org/coar/resource_type/H41Y-FW7B
+title:
+  cs: laboratory notebook
+  en: laboratory notebook
+---
+id: H6QP-SC1X
+props:
+  iri: http://purl.org/coar/resource_type/H6QP-SC1X
+title:
+  cs: trademark
+  en: trademark
+---
+id: H9BQ-739P
+props:
+  iri: http://purl.org/coar/resource_type/H9BQ-739P
+title:
+  cs: peer review
+  en: peer review
+---
+id: JBNF-DYAD
+props:
+  iri: http://purl.org/coar/resource_type/JBNF-DYAD
+title:
+  cs: industrial design
+  en: industrial design
+---
+id: MW8G-3CR8
+props:
+  iri: http://purl.org/coar/resource_type/MW8G-3CR8
+title:
+  cs: software patent
+  en: software patent
+---
+id: NHD0-W6SY
+props:
+  iri: http://purl.org/coar/resource_type/NHD0-W6SY
+title:
+  cs: survey data
+  en: survey data
+---
+id: QH80-2R4E
+props:
+  iri: http://purl.org/coar/resource_type/QH80-2R4E
+title:
+  cs: source code
+  en: source code
+---
+id: QX5C-AR31
+props:
+  iri: http://purl.org/coar/resource_type/QX5C-AR31
+title:
+  cs: other periodical
+  en: other periodical
+---
+id: R60J-J5BD
+props:
+  iri: http://purl.org/coar/resource_type/R60J-J5BD
+title:
+  cs: conference presentation
+  en: conference presentation
+---
+id: RMP5-3GQ6
+props:
+  iri: http://purl.org/coar/resource_type/RMP5-3GQ6
+title:
+  cs: collection
+  en: collection
+---
+id: S7R1-K5P0
+props:
+  iri: http://purl.org/coar/resource_type/S7R1-K5P0
+title:
+  cs: physical sample
+  en: physical sample
+---
+id: SB3Y-W4EH
+props:
+  iri: http://purl.org/coar/resource_type/SB3Y-W4EH
+title:
+  cs: PCT application
+  en: PCT application
+---
+id: W2XT-7017
+props:
+  iri: http://purl.org/coar/resource_type/W2XT-7017
+title:
+  cs: simulation data
+  en: simulation data
+---
+id: YC9F-HGCF
+props:
+  iri: http://purl.org/coar/resource_type/YC9F-HGCF
+title:
+  cs: archival collection
+  en: archival collection
+---
+id: YZ1N-ZFT9
+props:
+  iri: http://purl.org/coar/resource_type/YZ1N-ZFT9
+title:
+  cs: research protocol
+  en: research protocol
+---
+id: Z907-YMBB
+props:
+  iri: http://purl.org/coar/resource_type/Z907-YMBB
+title:
+  cs: plant patent
+  en: plant patent
+---
+id: c_0040
+props:
+  iri: http://purl.org/coar/resource_type/c_0040
+title:
+  cs: manuscript
+  en: manuscript
+---
+id: c_0640
+props:
+  iri: http://purl.org/coar/resource_type/c_0640
+title:
+  cs: odborné periodikum
+  en: journal
+---
+id: c_0857
+props:
+  iri: http://purl.org/coar/resource_type/c_0857
+title:
+  cs: dopis
+  en: letter
+---
+id: c_1162
+props:
+  iri: http://purl.org/coar/resource_type/c_1162
+title:
+  cs: právní komentář rozsudku nebo rozhodnutí
+  en: annotation
+---
+id: c_12cc
+props:
+  iri: http://purl.org/coar/resource_type/c_12cc
+title:
+  cs: kartografický dokument
+  en: cartographic material
+---
+id: c_12cd
+props:
+  iri: http://purl.org/coar/resource_type/c_12cd
+title:
+  cs: mapa
+  en: map
+---
+id: c_12ce
+props:
+  iri: http://purl.org/coar/resource_type/c_12ce
+title:
+  cs: video
+  en: video
+---
+id: c_15cd
+props:
+  iri: http://purl.org/coar/resource_type/c_15cd
+title:
+  cs: patent
+  en: patent
+---
+id: c_1843
+props:
+  iri: http://purl.org/coar/resource_type/c_1843
+title:
+  cs: ostatní
+  en: other
+---
+id: c_186u
+props:
+  iri: http://purl.org/coar/resource_type/c_186u
+title:
+  cs: zpráva k politice nebo strategii
+  en: policy report
+---
+id: c_18cc
+props:
+  iri: http://purl.org/coar/resource_type/c_18cc
+title:
+  cs: zvuk
+  en: sound
+---
+id: c_18cd
+props:
+  iri: http://purl.org/coar/resource_type/c_18cd
+title:
+  cs: hudební skladba
+  en: musical composition
+---
+id: c_18cf
+props:
+  iri: http://purl.org/coar/resource_type/c_18cf
+title:
+  cs: text
+  en: text
+---
+id: c_18co
+props:
+  iri: http://purl.org/coar/resource_type/c_18co
+title:
+  cs: konferenční poster nezahrnutý ve sborníku
+  en: conference poster not in proceedings
+---
+id: c_18cp
+props:
+  iri: http://purl.org/coar/resource_type/c_18cp
+title:
+  cs: konferenční příspěvek nezahrnutý ve sborníku
+  en: conference paper not in proceedings
+---
+id: c_18cw
+props:
+  iri: http://purl.org/coar/resource_type/c_18cw
+title:
+  cs: hudební zápis
+  en: musical notation
+---
+id: c_18gh
+props:
+  iri: http://purl.org/coar/resource_type/c_18gh
+title:
+  cs: technická zpráva
+  en: technical report
+---
+id: c_18hj
+props:
+  iri: http://purl.org/coar/resource_type/c_18hj
+title:
+  cs: zpráva pro poskytovatele podpory
+  en: report to funding agency
+---
+id: c_18op
+props:
+  iri: http://purl.org/coar/resource_type/c_18op
+title:
+  cs: výstup projektu
+  en: project deliverable
+---
+id: c_18wq
+props:
+  iri: http://purl.org/coar/resource_type/c_18wq
+title:
+  cs: jiná zpráva
+  en: other type of report
+---
+id: c_18ws
+props:
+  iri: http://purl.org/coar/resource_type/c_18ws
+title:
+  cs: výzkumná zpráva
+  en: research report
+---
+id: c_18ww
+props:
+  iri: http://purl.org/coar/resource_type/c_18ww
+title:
+  cs: interní zpráva
+  en: internal report
+---
+id: c_18wz
+props:
+  iri: http://purl.org/coar/resource_type/c_18wz
+title:
+  cs: memorandum
+  en: memorandum
+---
+id: c_2659
+props:
+  iri: http://purl.org/coar/resource_type/c_2659
+title:
+  cs: periodikum
+  en: periodical
+---
+id: c_26e4
+props:
+  iri: http://purl.org/coar/resource_type/c_26e4
+title:
+  cs: interview
+  en: interview
+---
+id: c_2cd9
+props:
+  iri: http://purl.org/coar/resource_type/c_2cd9
+title:
+  cs: magazine
+  en: magazine
+---
+id: c_2df8fbb1
+props:
+  iri: http://purl.org/coar/resource_type/c_2df8fbb1
+title:
+  cs: původní článek
+  en: research article
+---
+id: c_2f33
+props:
+  iri: http://purl.org/coar/resource_type/c_2f33
+title:
+  cs: kniha
+  en: book
+---
+id: c_2fe3
+props:
+  iri: http://purl.org/coar/resource_type/c_2fe3
+title:
+  cs: newspaper
+  en: newspaper
+---
+id: c_3248
+props:
+  iri: http://purl.org/coar/resource_type/c_3248
+title:
+  cs: část knihy
+  en: book part
+---
+id: c_393c
+props:
+  iri: http://purl.org/coar/resource_type/c_393c
+title:
+  cs: pracovní postup
+  en: workflow
+---
+id: c_3e5a
+props:
+  iri: http://purl.org/coar/resource_type/c_3e5a
+title:
+  cs: příspěvek v časopisu
+  en: contribution to journal
+---
+id: c_46ec
+props:
+  iri: http://purl.org/coar/resource_type/c_46ec
+title:
+  cs: kvalifikační práce
+  en: thesis
+---
+id: c_545b
+props:
+  iri: http://purl.org/coar/resource_type/c_545b
+title:
+  cs: dopis redakci
+  en: letter to the editor
+---
+id: c_5794
+props:
+  iri: http://purl.org/coar/resource_type/c_5794
+title:
+  cs: příspěvek na konferenci
+  en: conference paper
+---
+id: c_5ce6
+props:
+  iri: http://purl.org/coar/resource_type/c_5ce6
+title:
+  cs: software
+  en: software
+---
+id: c_6501
+props:
+  iri: http://purl.org/coar/resource_type/c_6501
+title:
+  cs: článek v odborném časopisu
+  en: journal article
+---
+id: c_6670
+props:
+  iri: http://purl.org/coar/resource_type/c_6670
+title:
+  cs: poster na konferenci
+  en: conference poster
+---
+id: c_6947
+props:
+  iri: http://purl.org/coar/resource_type/c_6947
+title:
+  cs: blog post
+  en: blog post
+---
+id: c_71bd
+props:
+  iri: http://purl.org/coar/resource_type/c_71bd
+title:
+  cs: technická dokumentace
+  en: technical documentation
+---
+id: c_7877
+props:
+  iri: http://purl.org/coar/resource_type/c_7877
+title:
+  cs: clinical study
+  en: clinical study
+---
+id: c_7a1f
+props:
+  iri: http://purl.org/coar/resource_type/c_7a1f
+title:
+  cs: bakalářská práce
+  en: bachelor thesis
+---
+id: c_7acd
+props:
+  iri: http://purl.org/coar/resource_type/c_7acd
+title:
+  cs: corrigendum
+  en: corrigendum
+---
+id: c_7ad9
+props:
+  iri: http://purl.org/coar/resource_type/c_7ad9
+title:
+  cs: webové sídlo
+  en: website
+---
+id: c_7bab
+props:
+  iri: http://purl.org/coar/resource_type/c_7bab
+title:
+  cs: software paper
+  en: software paper
+---
+id: c_8042
+props:
+  iri: http://purl.org/coar/resource_type/c_8042
+title:
+  cs: pracovní dokument
+  en: working paper
+---
+id: c_816b
+props:
+  iri: http://purl.org/coar/resource_type/c_816b
+title:
+  cs: preprint
+  en: preprint
+---
+id: c_8544
+props:
+  iri: http://purl.org/coar/resource_type/c_8544
+title:
+  cs: přednáška
+  en: lecture
+---
+id: c_86bc
+props:
+  iri: http://purl.org/coar/resource_type/c_86bc
+title:
+  cs: bibliografie
+  en: bibliography
+---
+id: c_8a7e
+props:
+  iri: http://purl.org/coar/resource_type/c_8a7e
+title:
+  cs: pohyblivý obraz
+  en: moving image
+---
+id: c_93fc
+props:
+  iri: http://purl.org/coar/resource_type/c_93fc
+title:
+  cs: zpráva
+  en: report
+---
+id: c_998f
+props:
+  iri: http://purl.org/coar/resource_type/c_998f
+title:
+  cs: newspaper article
+  en: newspaper article
+---
+id: c_ab20
+props:
+  iri: http://purl.org/coar/resource_type/c_ab20
+title:
+  cs: data management plan
+  en: data management plan
+---
+id: c_b239
+props:
+  iri: http://purl.org/coar/resource_type/c_b239
+title:
+  cs: úvodník
+  en: editorial
+---
+id: c_ba08
+props:
+  iri: http://purl.org/coar/resource_type/c_ba08
+title:
+  cs: recenze knihy
+  en: book review
+---
+id: c_ba1f
+props:
+  iri: http://purl.org/coar/resource_type/c_ba1f
+title:
+  cs: report part
+  en: report part
+---
+id: c_baaf
+props:
+  iri: http://purl.org/coar/resource_type/c_baaf
+title:
+  cs: návrh výzkumného projektu
+  en: research proposal
+---
+id: c_bdcc
+props:
+  iri: http://purl.org/coar/resource_type/c_bdcc
+title:
+  cs: diplomová práce
+  en: master thesis
+---
+id: c_beb9
+props:
+  iri: http://purl.org/coar/resource_type/c_beb9
+title:
+  cs: článek o datové sadě
+  en: data paper
+---
+id: c_c513
+props:
+  iri: http://purl.org/coar/resource_type/c_c513
+title:
+  cs: obraz
+  en: image
+---
+id: c_c94f
+props:
+  iri: http://purl.org/coar/resource_type/c_c94f
+title:
+  cs: conference output
+  en: conference output
+---
+id: c_c950
+props:
+  iri: http://purl.org/coar/resource_type/c_c950
+title:
+  cs: research software
+  en: research software
+---
+id: c_cb28
+props:
+  iri: http://purl.org/coar/resource_type/c_cb28
+title:
+  cs: clinical trial data
+  en: clinical trial data
+---
+id: c_db06
+props:
+  iri: http://purl.org/coar/resource_type/c_db06
+title:
+  cs: disertační práce
+  en: doctoral thesis
+---
+id: c_dcae04bc
+props:
+  iri: http://purl.org/coar/resource_type/c_dcae04bc
+title:
+  cs: přehledový článek
+  en: review article
+---
+id: c_ddb1
+props:
+  iri: http://purl.org/coar/resource_type/c_ddb1
+title:
+  cs: datová sada
+  en: dataset
+---
+id: c_e059
+props:
+  iri: http://purl.org/coar/resource_type/c_e059
+title:
+  cs: learning object
+  en: learning object
+---
+id: c_e9a0
+props:
+  iri: http://purl.org/coar/resource_type/c_e9a0
+title:
+  cs: interaktivní zdroj
+  en: interactive resource
+---
+id: c_ecc8
+props:
+  iri: http://purl.org/coar/resource_type/c_ecc8
+title:
+  cs: nepohyblivý obraz
+  en: still image
+---
+id: c_efa0
+props:
+  iri: http://purl.org/coar/resource_type/c_efa0
+title:
+  cs: recenze
+  en: review
+---
+id: c_f744
+props:
+  iri: http://purl.org/coar/resource_type/c_f744
+title:
+  cs: sborník konference
+  en: conference proceedings
