@@ -6,7 +6,7 @@ description:
   cs: Frascati je mezinárodní klasifikace výzkumných a vývojových aktivit.
   en: Frascati is an international classification of research and development activities.
 props:
-  iri: https://vocabs.ccmm.cz/registry/SubjectCategories/
+  iri: https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/
 ---
 id: EuroSciVoc
 title:
