@@ -113,12 +113,12 @@ class SPARQLReader(VocabularyReader):
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     {{prefixes}}
 
-    SELECT ?concept ?label_cs ?label_en ?identifier ?broader {{extra_props}}
+    SELECT ?concept ?label_cs ?label_en ?description_cs ?description_en ?identifier ?broader {{extra_props}}
     WHERE {
     ?concept a skos:Concept ;
                 skos:inScheme ?scheme .
 
-        # Get English label (prefLabel first, then altLabel)
+    # Get English label (prefLabel first, then altLabel)
     OPTIONAL {
         { ?concept skos:prefLabel ?prefLabel_en FILTER(lang(?prefLabel_en) = "en") }
         UNION
@@ -130,7 +130,17 @@ class SPARQLReader(VocabularyReader):
     OPTIONAL {
         { ?concept skos:prefLabel ?label_cs FILTER(lang(?label_cs) = "cs") }
     }
+
+    # Get English description (skos:definition)
+    OPTIONAL {
+        { ?concept skos:definition ?description_en FILTER(lang(?description_en) = "en") }
+    }
     
+    # Get Czech description (skos:definition)
+    OPTIONAL {
+        { ?concept skos:definition ?description_cs FILTER(lang(?description_cs) = "cs") }
+    }
+
     # Get dc:identifier if available
     OPTIONAL { ?concept dc:identifier ?identifier }
 
@@ -169,7 +179,16 @@ class SPARQLReader(VocabularyReader):
         by_iri: dict[str, str] = {}
         for row in cast(tuple[Any, ...], rows):
             row = [str(x) if x is not None else None for x in row]
-            iri, title_cs, title_en, term_id, broader, *row_props = row
+            (
+                iri,
+                title_cs,
+                title_en,
+                description_cs,
+                description_en,
+                term_id,
+                broader,
+                *row_props,
+            ) = row
             # Skip empty rows
             if not iri:
                 continue
@@ -186,16 +205,21 @@ class SPARQLReader(VocabularyReader):
                 term: dict[str, Any] = {"id": term_id}
                 term["props"] = defaultdict(set[str])
                 term["title"] = {}
+                term["description"] = {}
                 converted[term_id] = term
             else:
                 term = converted[term_id]
 
             if "cs" not in term["title"]:
-                term["title"]["cs"] = {title_cs or title_en}
+                term["title"]["cs"] = title_cs or title_en
             if "en" not in term["title"]:
-                term["title"]["en"] = {title_en or title_cs}
+                term["title"]["en"] = title_en or title_cs
             if "iri" not in term["props"]:
                 term["props"]["iri"] = {iri}
+            if "cs" not in term["description"] and description_cs:
+                term["description"]["cs"] = description_cs
+            if "en" not in term["description"] and description_en:
+                term["description"]["en"] = description_en
 
             for prop, value in zip(self.extra_props.keys(), row_props):
                 if value is not None:
@@ -214,8 +238,6 @@ class SPARQLReader(VocabularyReader):
 
         # Convert sets to comma-separated strings
         for term in converted.values():
-            term["title"]["cs"] = ", ".join(term["title"]["cs"])
-            term["title"]["en"] = ", ".join(term["title"]["en"])
             term["props"] = dict(term["props"])
             for prop in list(term["props"]):
                 self.array_resolution(prop, term["props"])
