@@ -14,7 +14,8 @@ from invenio_ccmm.ccmm_sparql import SPARQLReader  # noqa
 
 
 @click.command()
-def convert_vocabularies() -> None:
+@click.argument("vocabulary_names", nargs=-1)
+def convert_vocabularies(vocabulary_names: list[str]) -> None:
     root_dir = Path(__file__).parent.parent
 
     converters: list[tuple[VocabularyReader, Path]] = [
@@ -78,11 +79,21 @@ def convert_vocabularies() -> None:
         ),
         (
             SPARQLReader(
-                "Resource types",
+                "Resource Type",
                 "https://vocabularies.coar-repositories.org/resource_types/resource_types.nt",
                 "http://purl.org/coar/resource_type/scheme",
                 format="turtle",
                 load_subgraphs=False,
+                extra=root_dir / "input/addon_resource_types.ttl",
+                extra_props={
+                    "zenodo": """
+                        ?concept props:zenodo ?zenodo
+                    """,
+                },
+                prefixes={
+                    "props": "http://vocabs.ccmm.cz/props/",
+                },
+                array_resolution=zenodo_resource_type_array_resolution,
             ),
             root_dir / "fixtures/ccmm_resource_types.yaml",
         ),
@@ -123,8 +134,13 @@ def convert_vocabularies() -> None:
         ),
     ]
 
+    if not vocabulary_names:
+        vocabulary_names = [reader.name for reader, _ in converters]
+
     with_progress = tqdm(converters, leave=False, unit="vocab")
     for reader, output_path in with_progress:
+        if reader.name not in vocabulary_names:
+            continue
         try:
             with_progress.set_description(reader.name)
             with_progress.refresh()
@@ -139,6 +155,15 @@ def convert_vocabularies() -> None:
         except Exception as e:
             print(f"Error converting {reader.name}: {e}")
             traceback.print_exc()
+
+
+def zenodo_resource_type_array_resolution(prop: str, parent: dict[str, str]) -> None:
+    values = parent[prop]
+    parent[prop] = ", ".join(values)
+
+    if prop == "zenodo":
+        for value in values:
+            parent[f"zenodo-{value}"] = "true"
 
 
 if __name__ == "__main__":

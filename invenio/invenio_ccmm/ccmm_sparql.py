@@ -1,7 +1,8 @@
 import logging
+from collections import defaultdict
 from functools import partial
 from pathlib import Path
-from typing import Any, cast
+from typing import Any, Callable, cast
 from urllib.error import HTTPError, URLError
 
 from rdflib import SKOS, Graph, URIRef
@@ -42,7 +43,13 @@ def parse_source(url: str, format: str = "xml") -> Graph:
         raise  # Re-raise for tenacity to handle
 
 
+def join_with_commas(prop: str, parent: dict[str, Any]) -> None:
+    parent[prop] = ", ".join(parent[prop])
+
+
 class SPARQLReader(VocabularyReader):
+    """Download rdf locally, enrich it and call sparql to convert the RDF to Invenio YAML format."""
+
     def __init__(
         self,
         name: str,
@@ -51,25 +58,37 @@ class SPARQLReader(VocabularyReader):
         extra: Path | None = None,  # turtle serialization of extra triples
         load_subgraphs: bool = True,
         format: str = "xml",
+        extra_props: dict[str, str] | None = None,
+        prefixes: dict[str, str] | None = None,
+        array_resolution: Callable[[str, dict[str, Any]], None] = join_with_commas,
     ):
+        """Initialize the SPARQL reader.
+
+        :param name: Name of the vocabulary.
+        :param endpoint: SPARQL endpoint URL.
+        :param skos_concept: SKOS concept scheme URI.
+        :param extra: Path to a turtle file with extra triples.
+        :param load_subgraphs: Whether to load subgraphs.
+        :param format: Format of the SPARQL file at the endpoint.
+        :param extra_props: Additional properties to include in the results.
+                            Keys are the names of the properties,
+                            and values is the sparql query to get the value,
+                            will be wrapped in an OPTIONAL clause.
+        :param prefixes: Prefixes to use in the SPARQL query.
+        :param array_resolution: Function to resolve array properties (default is to join with commas).
+        """
         super().__init__(name)
         self.endpoint = endpoint
         self.skos_concept = skos_concept
         self.extra = extra
         self.load_subgraphs = load_subgraphs
         self.format = format
+        self.extra_props = extra_props or {}
+        self.prefixes = prefixes or {}
+        self.array_resolution = array_resolution
 
     def data(self) -> list[dict[str, str]]:
-        """Convert CCMM from SPARQL to YAML that can be imported to NRP Invenio.
-
-        The query must return the following columns:
-        - id
-        - iri
-        - title_cs
-        - title_en
-        - definition_cs
-        - definition_en
-        """
+        """Convert CCMM from SPARQL to YAML that can be imported to NRP Invenio."""
 
         # whole_graph: Graph = parse_source("file:///tmp/ccmm.ttl", format="turtle")
         whole_graph: Graph = parse_source(self.endpoint, format=self.format)
@@ -87,14 +106,14 @@ class SPARQLReader(VocabularyReader):
         # # save the whole graph to a turtle file /tmp/ccmm.ttl
         # whole_graph.serialize("/tmp/ccmm.ttl", format="turtle")
 
-        rows = whole_graph.query(
-            """
+        query = """
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     PREFIX dc: <http://purl.org/dc/elements/1.1/>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    {{prefixes}}
 
-    SELECT ?concept ?label_cs ?label_en ?identifier
+    SELECT ?concept ?label_cs ?label_en ?identifier ?broader {{extra_props}}
     WHERE {
     ?concept a skos:Concept ;
                 skos:inScheme ?scheme .
@@ -114,19 +133,43 @@ class SPARQLReader(VocabularyReader):
     
     # Get dc:identifier if available
     OPTIONAL { ?concept dc:identifier ?identifier }
+
+    # Get skos:broader if available
+    OPTIONAL { ?concept skos:broader ?broader }
+
+    # Get extra properties
+    {{extra_props_sparql}}
+
     }
+    
     ORDER BY ?concept                                            
-                        """,
+                        """
+
+        query = query.replace(
+            "{{prefixes}}",
+            "\n".join(
+                f"PREFIX {key}: <{value}>" for key, value in self.prefixes.items()
+            ),
+        )
+        query = query.replace(
+            "{{extra_props}}",
+            " ".join(f"?{key}" for key in self.extra_props),
+        )
+        query = query.replace(
+            "{{extra_props_sparql}}",
+            "\n".join(f"OPTIONAL {{ {value} }}" for value in self.extra_props.values()),
+        )
+        rows = whole_graph.query(
+            query,
             initBindings={
                 "scheme": URIRef(self.skos_concept),
             },
         )
-        terms: list[dict[str, Any]] = []
         converted: dict[str, Any] = {}
+        by_iri: dict[str, str] = {}
         for row in cast(tuple[Any, ...], rows):
-            iri, title_cs, title_en, term_id = [
-                str(x) if x is not None else None for x in row
-            ]
+            row = [str(x) if x is not None else None for x in row]
+            iri, title_cs, title_en, term_id, broader, *row_props = row
             # Skip empty rows
             if not iri:
                 continue
@@ -139,21 +182,45 @@ class SPARQLReader(VocabularyReader):
                 term_id = iri.split("/")[-1]
                 term_id = term_id.split("#")[-1]
 
-            if term_id in converted:
-                continue
-            term: dict[str, Any] = {
-                "id": term_id,
-                "title": {
-                    "cs": title_cs or title_en,
-                    "en": title_en or title_cs,
-                },
-                "props": {
-                    "iri": iri,
-                },
-            }
-            converted[term_id] = term
-            terms.append(term)
-        return terms
+            if term_id not in converted:
+                term: dict[str, Any] = {"id": term_id}
+                term["props"] = defaultdict(set[str])
+                term["title"] = {}
+                converted[term_id] = term
+            else:
+                term = converted[term_id]
+
+            if "cs" not in term["title"]:
+                term["title"]["cs"] = {title_cs or title_en}
+            if "en" not in term["title"]:
+                term["title"]["en"] = {title_en or title_cs}
+            if "iri" not in term["props"]:
+                term["props"]["iri"] = {iri}
+
+            for prop, value in zip(self.extra_props.keys(), row_props):
+                if value is not None:
+                    term["props"][prop].add(str(value))
+
+            if broader:
+                term["hierarchy"] = {"parent": broader}
+
+            by_iri[iri] = term_id
+
+        # Resolve the hierarchy
+        for term in converted.values():
+            if "hierarchy" in term:
+                parent = term["hierarchy"]["parent"]
+                term["hierarchy"]["parent"] = by_iri[parent]
+
+        # Convert sets to comma-separated strings
+        for term in converted.values():
+            term["title"]["cs"] = ", ".join(term["title"]["cs"])
+            term["title"]["en"] = ", ".join(term["title"]["en"])
+            term["props"] = dict(term["props"])
+            for prop in list(term["props"]):
+                self.array_resolution(prop, term["props"])
+
+        return [dict(term) for term in converted.values()]
 
     def _load_subgraphs(self, whole_graph: Graph) -> None:
         """Load all subgraphs from the SKOS concept scheme and merge them into the whole graph."""

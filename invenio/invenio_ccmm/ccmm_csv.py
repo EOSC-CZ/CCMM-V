@@ -6,6 +6,8 @@ from .base import VocabularyReader
 
 
 class CSVReader(VocabularyReader):
+    """Read CCMM CSV files and convert them to YAML format."""
+
     def __init__(self, name: str, csv_path: Path):
         super().__init__(name)
         self.csv_path = csv_path

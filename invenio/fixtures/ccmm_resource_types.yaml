@@ -1,3 +1,5 @@
+hierarchy:
+  parent: RMP5-3GQ6
 id: 1YTN-RJZE
 props:
   iri: http://purl.org/coar/resource_type/1YTN-RJZE
@@ -5,6 +7,8 @@ title:
   cs: court documents
   en: court documents
 ---
+hierarchy:
+  parent: c_ddb1
 id: 2H0M-X761
 props:
   iri: http://purl.org/coar/resource_type/2H0M-X761
@@ -12,6 +16,8 @@ title:
   cs: geospatial data
   en: geospatial data
 ---
+hierarchy:
+  parent: c_2cd9
 id: 43KC-T6DC
 props:
   iri: http://purl.org/coar/resource_type/43KC-T6DC
@@ -26,6 +32,8 @@ title:
   cs: design
   en: design
 ---
+hierarchy:
+  parent: c_ddb1
 id: 63NG-B465
 props:
   iri: http://purl.org/coar/resource_type/63NG-B465
@@ -33,6 +41,8 @@ title:
   cs: experimental data
   en: experimental data
 ---
+hierarchy:
+  parent: c_18cf
 id: 6NC7-GK9S
 props:
   iri: http://purl.org/coar/resource_type/6NC7-GK9S
@@ -47,6 +57,8 @@ title:
   cs: research instrument
   en: research instrument
 ---
+hierarchy:
+  parent: c_15cd
 id: 9DKX-KSAF
 props:
   iri: http://purl.org/coar/resource_type/9DKX-KSAF
@@ -54,6 +66,8 @@ title:
   cs: utility model
   en: utility model
 ---
+hierarchy:
+  parent: c_ddb1
 id: A8F1-NPV9
 props:
   iri: http://purl.org/coar/resource_type/A8F1-NPV9
@@ -61,6 +75,8 @@ title:
   cs: genomic data
   en: genomic data
 ---
+hierarchy:
+  parent: c_ddb1
 id: ACF7-8YT9
 props:
   iri: http://purl.org/coar/resource_type/ACF7-8YT9
@@ -68,6 +84,8 @@ title:
   cs: aggregated data
   en: aggregated data
 ---
+hierarchy:
+  parent: c_ddb1
 id: AM6W-6QAW
 props:
   iri: http://purl.org/coar/resource_type/AM6W-6QAW
@@ -75,6 +93,8 @@ title:
   cs: encoded data
   en: encoded data
 ---
+hierarchy:
+  parent: 542X-3S04
 id: BW7T-YM2G
 props:
   iri: http://purl.org/coar/resource_type/BW7T-YM2G
@@ -82,6 +102,8 @@ title:
   cs: layout design
   en: layout design
 ---
+hierarchy:
+  parent: c_15cd
 id: C53B-JCY5
 props:
   iri: http://purl.org/coar/resource_type/C53B-JCY5
@@ -89,6 +111,8 @@ title:
   cs: design patent
   en: design patent
 ---
+hierarchy:
+  parent: c_ddb1
 id: CQMR-7K63
 props:
   iri: http://purl.org/coar/resource_type/CQMR-7K63
@@ -96,6 +120,8 @@ title:
   cs: recorded data
   en: recorded data
 ---
+hierarchy:
+  parent: c_efa0
 id: D97F-VB57
 props:
   iri: http://purl.org/coar/resource_type/D97F-VB57
@@ -103,6 +129,8 @@ title:
   cs: commentary
   en: commentary
 ---
+hierarchy:
+  parent: c_ddb1
 id: DD58-GFSX
 props:
   iri: http://purl.org/coar/resource_type/DD58-GFSX
@@ -110,6 +138,8 @@ title:
   cs: measurement and test data
   en: measurement and test data
 ---
+hierarchy:
+  parent: c_93fc
 id: DX5J-TA9R
 props:
   iri: http://purl.org/coar/resource_type/DX5J-TA9R
@@ -131,6 +161,8 @@ title:
   cs: artistic work
   en: artistic work
 ---
+hierarchy:
+  parent: c_ddb1
 id: FF4C-28RK
 props:
   iri: http://purl.org/coar/resource_type/FF4C-28RK
@@ -138,6 +170,8 @@ title:
   cs: observational data
   en: observational data
 ---
+hierarchy:
+  parent: c_ddb1
 id: FXF3-D3G7
 props:
   iri: http://purl.org/coar/resource_type/FXF3-D3G7
@@ -145,6 +179,8 @@ title:
   cs: compiled data
   en: compiled data
 ---
+hierarchy:
+  parent: c_15cd
 id: GPQ7-G5VE
 props:
   iri: http://purl.org/coar/resource_type/GPQ7-G5VE
@@ -159,6 +195,8 @@ title:
   cs: knowledge organization system
   en: knowledge organization system
 ---
+hierarchy:
+  parent: c_ddb1
 id: H41Y-FW7B
 props:
   iri: http://purl.org/coar/resource_type/H41Y-FW7B
@@ -173,6 +211,8 @@ title:
   cs: trademark
   en: trademark
 ---
+hierarchy:
+  parent: c_efa0
 id: H9BQ-739P
 props:
   iri: http://purl.org/coar/resource_type/H9BQ-739P
@@ -180,6 +220,8 @@ title:
   cs: peer review
   en: peer review
 ---
+hierarchy:
+  parent: 542X-3S04
 id: JBNF-DYAD
 props:
   iri: http://purl.org/coar/resource_type/JBNF-DYAD
@@ -187,6 +229,8 @@ title:
   cs: industrial design
   en: industrial design
 ---
+hierarchy:
+  parent: c_15cd
 id: MW8G-3CR8
 props:
   iri: http://purl.org/coar/resource_type/MW8G-3CR8
@@ -194,6 +238,8 @@ title:
   cs: software patent
   en: software patent
 ---
+hierarchy:
+  parent: c_ddb1
 id: NHD0-W6SY
 props:
   iri: http://purl.org/coar/resource_type/NHD0-W6SY
@@ -201,6 +247,8 @@ title:
   cs: survey data
   en: survey data
 ---
+hierarchy:
+  parent: c_5ce6
 id: QH80-2R4E
 props:
   iri: http://purl.org/coar/resource_type/QH80-2R4E
@@ -208,6 +256,8 @@ title:
   cs: source code
   en: source code
 ---
+hierarchy:
+  parent: c_18cf
 id: QX5C-AR31
 props:
   iri: http://purl.org/coar/resource_type/QX5C-AR31
@@ -215,6 +265,8 @@ title:
   cs: other periodical
   en: other periodical
 ---
+hierarchy:
+  parent: c_c94f
 id: R60J-J5BD
 props:
   iri: http://purl.org/coar/resource_type/R60J-J5BD
@@ -236,6 +288,8 @@ title:
   cs: physical sample
   en: physical sample
 ---
+hierarchy:
+  parent: c_15cd
 id: SB3Y-W4EH
 props:
   iri: http://purl.org/coar/resource_type/SB3Y-W4EH
@@ -243,6 +297,8 @@ title:
   cs: PCT application
   en: PCT application
 ---
+hierarchy:
+  parent: c_ddb1
 id: W2XT-7017
 props:
   iri: http://purl.org/coar/resource_type/W2XT-7017
@@ -250,6 +306,8 @@ title:
   cs: simulation data
   en: simulation data
 ---
+hierarchy:
+  parent: RMP5-3GQ6
 id: YC9F-HGCF
 props:
   iri: http://purl.org/coar/resource_type/YC9F-HGCF
@@ -257,6 +315,8 @@ title:
   cs: archival collection
   en: archival collection
 ---
+hierarchy:
+  parent: c_93fc
 id: YZ1N-ZFT9
 props:
   iri: http://purl.org/coar/resource_type/YZ1N-ZFT9
@@ -264,6 +324,8 @@ title:
   cs: research protocol
   en: research protocol
 ---
+hierarchy:
+  parent: c_15cd
 id: Z907-YMBB
 props:
   iri: http://purl.org/coar/resource_type/Z907-YMBB
@@ -271,6 +333,8 @@ title:
   cs: plant patent
   en: plant patent
 ---
+hierarchy:
+  parent: c_18cf
 id: c_0040
 props:
   iri: http://purl.org/coar/resource_type/c_0040
@@ -278,13 +342,19 @@ title:
   cs: manuscript
   en: manuscript
 ---
+hierarchy:
+  parent: c_18cf
 id: c_0640
 props:
   iri: http://purl.org/coar/resource_type/c_0640
+  zenodo: publication-journal
+  zenodo-publication-journal: 'true'
 title:
   cs: odborné periodikum
   en: journal
 ---
+hierarchy:
+  parent: c_18cf
 id: c_0857
 props:
   iri: http://purl.org/coar/resource_type/c_0857
@@ -292,9 +362,14 @@ title:
   cs: dopis
   en: letter
 ---
+hierarchy:
+  parent: c_18cf
 id: c_1162
 props:
   iri: http://purl.org/coar/resource_type/c_1162
+  zenodo: annotationcollection, publication-annotation
+  zenodo-annotationcollection: 'true'
+  zenodo-publication-annotation: 'true'
 title:
   cs: právní komentář rozsudku nebo rozhodnutí
   en: annotation
@@ -306,6 +381,8 @@ title:
   cs: kartografický dokument
   en: cartographic material
 ---
+hierarchy:
+  parent: c_12cc
 id: c_12cd
 props:
   iri: http://purl.org/coar/resource_type/c_12cd
@@ -313,9 +390,13 @@ title:
   cs: mapa
   en: map
 ---
+hierarchy:
+  parent: c_8a7e
 id: c_12ce
 props:
   iri: http://purl.org/coar/resource_type/c_12ce
+  zenodo: video
+  zenodo-video: 'true'
 title:
   cs: video
   en: video
@@ -323,6 +404,8 @@ title:
 id: c_15cd
 props:
   iri: http://purl.org/coar/resource_type/c_15cd
+  zenodo: publication-patent
+  zenodo-publication-patent: 'true'
 title:
   cs: patent
   en: patent
@@ -330,10 +413,18 @@ title:
 id: c_1843
 props:
   iri: http://purl.org/coar/resource_type/c_1843
+  zenodo: model, other, event, publication-other, physicalobject
+  zenodo-event: 'true'
+  zenodo-model: 'true'
+  zenodo-other: 'true'
+  zenodo-physicalobject: 'true'
+  zenodo-publication-other: 'true'
 title:
   cs: ostatní
   en: other
 ---
+hierarchy:
+  parent: c_93fc
 id: c_186u
 props:
   iri: http://purl.org/coar/resource_type/c_186u
@@ -344,10 +435,14 @@ title:
 id: c_18cc
 props:
   iri: http://purl.org/coar/resource_type/c_18cc
+  zenodo: audio
+  zenodo-audio: 'true'
 title:
   cs: zvuk
   en: sound
 ---
+hierarchy:
+  parent: c_18cc
 id: c_18cd
 props:
   iri: http://purl.org/coar/resource_type/c_18cd
@@ -358,10 +453,20 @@ title:
 id: c_18cf
 props:
   iri: http://purl.org/coar/resource_type/c_18cf
+  zenodo: publication-standard, publication-datapaper, publication, publication-taxonomictreatment,
+    publication-milestone, publication-annotationcollection
+  zenodo-publication: 'true'
+  zenodo-publication-annotationcollection: 'true'
+  zenodo-publication-datapaper: 'true'
+  zenodo-publication-milestone: 'true'
+  zenodo-publication-standard: 'true'
+  zenodo-publication-taxonomictreatment: 'true'
 title:
   cs: text
   en: text
 ---
+hierarchy:
+  parent: c_c94f
 id: c_18co
 props:
   iri: http://purl.org/coar/resource_type/c_18co
@@ -369,6 +474,8 @@ title:
   cs: konferenční poster nezahrnutý ve sborníku
   en: conference poster not in proceedings
 ---
+hierarchy:
+  parent: c_c94f
 id: c_18cp
 props:
   iri: http://purl.org/coar/resource_type/c_18cp
@@ -376,6 +483,8 @@ title:
   cs: konferenční příspěvek nezahrnutý ve sborníku
   en: conference paper not in proceedings
 ---
+hierarchy:
+  parent: c_18cf
 id: c_18cw
 props:
   iri: http://purl.org/coar/resource_type/c_18cw
@@ -383,9 +492,13 @@ title:
   cs: hudební zápis
   en: musical notation
 ---
+hierarchy:
+  parent: c_93fc
 id: c_18gh
 props:
   iri: http://purl.org/coar/resource_type/c_18gh
+  zenodo: publication-technicalnote
+  zenodo-publication-technicalnote: 'true'
 title:
   cs: technická zpráva
   en: technical report
@@ -397,9 +510,13 @@ title:
   cs: zpráva pro poskytovatele podpory
   en: report to funding agency
 ---
+hierarchy:
+  parent: c_93fc
 id: c_18op
 props:
   iri: http://purl.org/coar/resource_type/c_18op
+  zenodo: publication-deliverable
+  zenodo-publication-deliverable: 'true'
 title:
   cs: výstup projektu
   en: project deliverable
@@ -411,6 +528,8 @@ title:
   cs: jiná zpráva
   en: other type of report
 ---
+hierarchy:
+  parent: c_93fc
 id: c_18ws
 props:
   iri: http://purl.org/coar/resource_type/c_18ws
@@ -425,6 +544,8 @@ title:
   cs: interní zpráva
   en: internal report
 ---
+hierarchy:
+  parent: c_93fc
 id: c_18wz
 props:
   iri: http://purl.org/coar/resource_type/c_18wz
@@ -446,13 +567,19 @@ title:
   cs: interview
   en: interview
 ---
+hierarchy:
+  parent: c_18cf
 id: c_2cd9
 props:
   iri: http://purl.org/coar/resource_type/c_2cd9
+  zenodo: image-drawing
+  zenodo-image-drawing: 'true'
 title:
   cs: magazine
   en: magazine
 ---
+hierarchy:
+  parent: c_6501
 id: c_2df8fbb1
 props:
   iri: http://purl.org/coar/resource_type/c_2df8fbb1
@@ -460,13 +587,19 @@ title:
   cs: původní článek
   en: research article
 ---
+hierarchy:
+  parent: c_18cf
 id: c_2f33
 props:
   iri: http://purl.org/coar/resource_type/c_2f33
+  zenodo: publication-book
+  zenodo-publication-book: 'true'
 title:
   cs: kniha
   en: book
 ---
+hierarchy:
+  parent: c_18cf
 id: c_2fe3
 props:
   iri: http://purl.org/coar/resource_type/c_2fe3
@@ -474,9 +607,13 @@ title:
   cs: newspaper
   en: newspaper
 ---
+hierarchy:
+  parent: c_2f33
 id: c_3248
 props:
   iri: http://purl.org/coar/resource_type/c_3248
+  zenodo: publication-section
+  zenodo-publication-section: 'true'
 title:
   cs: část knihy
   en: book part
@@ -484,6 +621,8 @@ title:
 id: c_393c
 props:
   iri: http://purl.org/coar/resource_type/c_393c
+  zenodo: workflow
+  zenodo-workflow: 'true'
 title:
   cs: pracovní postup
   en: workflow
@@ -495,13 +634,21 @@ title:
   cs: příspěvek v časopisu
   en: contribution to journal
 ---
+hierarchy:
+  parent: c_18cf
 id: c_46ec
 props:
   iri: http://purl.org/coar/resource_type/c_46ec
+  zenodo: publication-thesis, publication-dissertation, publication-doctorthesis
+  zenodo-publication-dissertation: 'true'
+  zenodo-publication-doctorthesis: 'true'
+  zenodo-publication-thesis: 'true'
 title:
   cs: kvalifikační práce
   en: thesis
 ---
+hierarchy:
+  parent: c_0640
 id: c_545b
 props:
   iri: http://purl.org/coar/resource_type/c_545b
@@ -509,9 +656,13 @@ title:
   cs: dopis redakci
   en: letter to the editor
 ---
+hierarchy:
+  parent: c_f744
 id: c_5794
 props:
   iri: http://purl.org/coar/resource_type/c_5794
+  zenodo: publication-conferencepaper
+  zenodo-publication-conferencepaper: 'true'
 title:
   cs: příspěvek na konferenci
   en: conference paper
@@ -519,24 +670,38 @@ title:
 id: c_5ce6
 props:
   iri: http://purl.org/coar/resource_type/c_5ce6
+  zenodo: software-computationalnotebook, image-diagram, software
+  zenodo-image-diagram: 'true'
+  zenodo-software: 'true'
+  zenodo-software-computationalnotebook: 'true'
 title:
   cs: software
   en: software
 ---
+hierarchy:
+  parent: c_0640
 id: c_6501
 props:
   iri: http://purl.org/coar/resource_type/c_6501
+  zenodo: publication-article
+  zenodo-publication-article: 'true'
 title:
   cs: článek v odborném časopisu
   en: journal article
 ---
+hierarchy:
+  parent: c_f744
 id: c_6670
 props:
   iri: http://purl.org/coar/resource_type/c_6670
+  zenodo: poster
+  zenodo-poster: 'true'
 title:
   cs: poster na konferenci
   en: conference poster
 ---
+hierarchy:
+  parent: c_18cf
 id: c_6947
 props:
   iri: http://purl.org/coar/resource_type/c_6947
@@ -544,13 +709,19 @@ title:
   cs: blog post
   en: blog post
 ---
+hierarchy:
+  parent: c_18cf
 id: c_71bd
 props:
   iri: http://purl.org/coar/resource_type/c_71bd
+  zenodo: publication-softwaredocumentation
+  zenodo-publication-softwaredocumentation: 'true'
 title:
   cs: technická dokumentace
   en: technical documentation
 ---
+hierarchy:
+  parent: c_93fc
 id: c_7877
 props:
   iri: http://purl.org/coar/resource_type/c_7877
@@ -558,13 +729,19 @@ title:
   cs: clinical study
   en: clinical study
 ---
+hierarchy:
+  parent: c_46ec
 id: c_7a1f
 props:
   iri: http://purl.org/coar/resource_type/c_7a1f
+  zenodo: publication-bachelorthesis
+  zenodo-publication-bachelorthesis: 'true'
 title:
   cs: bakalářská práce
   en: bachelor thesis
 ---
+hierarchy:
+  parent: c_6501
 id: c_7acd
 props:
   iri: http://purl.org/coar/resource_type/c_7acd
@@ -572,6 +749,8 @@ title:
   cs: corrigendum
   en: corrigendum
 ---
+hierarchy:
+  parent: c_e9a0
 id: c_7ad9
 props:
   iri: http://purl.org/coar/resource_type/c_7ad9
@@ -579,6 +758,8 @@ title:
   cs: webové sídlo
   en: website
 ---
+hierarchy:
+  parent: c_6501
 id: c_7bab
 props:
   iri: http://purl.org/coar/resource_type/c_7bab
@@ -586,27 +767,42 @@ title:
   cs: software paper
   en: software paper
 ---
+hierarchy:
+  parent: c_18cf
 id: c_8042
 props:
   iri: http://purl.org/coar/resource_type/c_8042
+  zenodo: publication-workingpaper
+  zenodo-publication-workingpaper: 'true'
 title:
   cs: pracovní dokument
   en: working paper
 ---
+hierarchy:
+  parent: c_18cf
 id: c_816b
 props:
   iri: http://purl.org/coar/resource_type/c_816b
+  zenodo: publication-preprint
+  zenodo-publication-preprint: 'true'
 title:
   cs: preprint
   en: preprint
 ---
+hierarchy:
+  parent: c_18cf
 id: c_8544
 props:
   iri: http://purl.org/coar/resource_type/c_8544
+  zenodo: publication-lecture, publication-abstract
+  zenodo-publication-abstract: 'true'
+  zenodo-publication-lecture: 'true'
 title:
   cs: přednáška
   en: lecture
 ---
+hierarchy:
+  parent: c_18cf
 id: c_86bc
 props:
   iri: http://purl.org/coar/resource_type/c_86bc
@@ -614,6 +810,8 @@ title:
   cs: bibliografie
   en: bibliography
 ---
+hierarchy:
+  parent: c_c513
 id: c_8a7e
 props:
   iri: http://purl.org/coar/resource_type/c_8a7e
@@ -621,13 +819,19 @@ title:
   cs: pohyblivý obraz
   en: moving image
 ---
+hierarchy:
+  parent: c_18cf
 id: c_93fc
 props:
   iri: http://purl.org/coar/resource_type/c_93fc
+  zenodo: publication-report
+  zenodo-publication-report: 'true'
 title:
   cs: zpráva
   en: report
 ---
+hierarchy:
+  parent: c_2fe3
 id: c_998f
 props:
   iri: http://purl.org/coar/resource_type/c_998f
@@ -635,6 +839,8 @@ title:
   cs: newspaper article
   en: newspaper article
 ---
+hierarchy:
+  parent: c_93fc
 id: c_ab20
 props:
   iri: http://purl.org/coar/resource_type/c_ab20
@@ -642,6 +848,8 @@ title:
   cs: data management plan
   en: data management plan
 ---
+hierarchy:
+  parent: c_0640
 id: c_b239
 props:
   iri: http://purl.org/coar/resource_type/c_b239
@@ -649,6 +857,8 @@ title:
   cs: úvodník
   en: editorial
 ---
+hierarchy:
+  parent: c_efa0
 id: c_ba08
 props:
   iri: http://purl.org/coar/resource_type/c_ba08
@@ -663,20 +873,30 @@ title:
   cs: report part
   en: report part
 ---
+hierarchy:
+  parent: c_18cf
 id: c_baaf
 props:
   iri: http://purl.org/coar/resource_type/c_baaf
+  zenodo: publication-proposal
+  zenodo-publication-proposal: 'true'
 title:
   cs: návrh výzkumného projektu
   en: research proposal
 ---
+hierarchy:
+  parent: c_46ec
 id: c_bdcc
 props:
   iri: http://purl.org/coar/resource_type/c_bdcc
+  zenodo: publication-mastersthesis
+  zenodo-publication-mastersthesis: 'true'
 title:
   cs: diplomová práce
   en: master thesis
 ---
+hierarchy:
+  parent: c_6501
 id: c_beb9
 props:
   iri: http://purl.org/coar/resource_type/c_beb9
@@ -687,17 +907,25 @@ title:
 id: c_c513
 props:
   iri: http://purl.org/coar/resource_type/c_c513
+  zenodo: image
+  zenodo-image: 'true'
 title:
   cs: obraz
   en: image
 ---
+hierarchy:
+  parent: c_18cf
 id: c_c94f
 props:
   iri: http://purl.org/coar/resource_type/c_c94f
+  zenodo: presentation
+  zenodo-presentation: 'true'
 title:
   cs: conference output
   en: conference output
 ---
+hierarchy:
+  parent: c_5ce6
 id: c_c950
 props:
   iri: http://purl.org/coar/resource_type/c_c950
@@ -705,6 +933,8 @@ title:
   cs: research software
   en: research software
 ---
+hierarchy:
+  parent: c_ddb1
 id: c_cb28
 props:
   iri: http://purl.org/coar/resource_type/c_cb28
@@ -712,6 +942,8 @@ title:
   cs: clinical trial data
   en: clinical trial data
 ---
+hierarchy:
+  parent: c_46ec
 id: c_db06
 props:
   iri: http://purl.org/coar/resource_type/c_db06
@@ -719,6 +951,8 @@ title:
   cs: disertační práce
   en: doctoral thesis
 ---
+hierarchy:
+  parent: c_6501
 id: c_dcae04bc
 props:
   iri: http://purl.org/coar/resource_type/c_dcae04bc
@@ -729,6 +963,8 @@ title:
 id: c_ddb1
 props:
   iri: http://purl.org/coar/resource_type/c_ddb1
+  zenodo: dataset
+  zenodo-dataset: 'true'
 title:
   cs: datová sada
   en: dataset
@@ -747,23 +983,37 @@ title:
   cs: interaktivní zdroj
   en: interactive resource
 ---
+hierarchy:
+  parent: c_c513
 id: c_ecc8
 props:
   iri: http://purl.org/coar/resource_type/c_ecc8
+  zenodo: image-plot, image-figure
+  zenodo-image-figure: 'true'
+  zenodo-image-plot: 'true'
 title:
   cs: nepohyblivý obraz
   en: still image
 ---
+hierarchy:
+  parent: c_18cf
 id: c_efa0
 props:
   iri: http://purl.org/coar/resource_type/c_efa0
+  zenodo: publication-peerreview, peerreview
+  zenodo-peerreview: 'true'
+  zenodo-publication-peerreview: 'true'
 title:
   cs: recenze
   en: review
 ---
+hierarchy:
+  parent: c_c94f
 id: c_f744
 props:
   iri: http://purl.org/coar/resource_type/c_f744
+  zenodo: publication-conferenceproceeding
+  zenodo-publication-conferenceproceeding: 'true'
 title:
   cs: sborník konference
   en: conference proceedings

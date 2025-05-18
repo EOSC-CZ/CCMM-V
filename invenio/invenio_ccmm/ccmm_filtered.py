@@ -7,6 +7,8 @@ from .base import VocabularyReader
 
 
 class FilterCls:
+    """Base class for filter classes."""
+
     def __init__(self):
         pass
 
