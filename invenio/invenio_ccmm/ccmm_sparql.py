@@ -44,7 +44,7 @@ def parse_source(url: str, format: str = "xml") -> Graph:
 
 
 def join_with_commas(prop: str, parent: dict[str, Any]) -> None:
-    parent[prop] = ", ".join(parent[prop])
+    parent[prop] = ", ".join(sorted(parent[prop]))
 
 
 class SPARQLReader(VocabularyReader):
@@ -198,8 +198,8 @@ class SPARQLReader(VocabularyReader):
 
             # set term_id if it was not provided
             if not term_id:
-                term_id = iri.split("/")[-1]
-                term_id = term_id.split("#")[-1]
+                term_id = iri.strip("/").split("/")[-1]
+                term_id = term_id.strip("#").split("#")[-1]
 
             if term_id not in converted:
                 term: dict[str, Any] = {"id": term_id}
@@ -242,7 +242,38 @@ class SPARQLReader(VocabularyReader):
             for prop in list(term["props"]):
                 self.array_resolution(prop, term["props"])
 
-        return [dict(term) for term in converted.values()]
+        to_sort = [dict(term) for term in converted.values()]
+
+        ret_ids: set[str] = set()
+        ret: list[dict[str, Any]] = []
+
+        remaining: list[dict[str, Any]] = []
+        for term in to_sort:
+            # if there is no parent, add the term
+            if "hierarchy" not in term:
+                ret.append(term)
+                ret_ids.add(term["id"])
+                continue
+            else:
+                remaining.append(term)
+
+        while remaining:
+            to_sort = remaining
+            remaining = []
+
+            for term in to_sort:
+                parent = term["hierarchy"]["parent"]
+                if parent in ret_ids:
+                    ret.append(term)
+                    ret_ids.add(term["id"])
+                else:
+                    remaining.append(term)
+            if len(to_sort) == len(remaining):
+                raise ValueError(
+                    f"There is a cycle in the hierarchy, please check the data: {remaining}"
+                )
+
+        return ret
 
     def _load_subgraphs(self, whole_graph: Graph) -> None:
         """Load all subgraphs from the SKOS concept scheme and merge them into the whole graph."""

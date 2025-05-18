@@ -6,8 +6,6 @@ description:
     May also be the “Point of Contact” in an organisation that controls access to
     the resource, if that organisation is different from the Publisher, Distributor,
     and Data Manager.'
-hierarchy:
-  parent: Contributor
 id: ContactPerson
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -23,8 +21,6 @@ description:
 
     May also be used when crediting survey conductors, interviewers, event or condition
     observers, or persons responsible for monitoring key instrument data.'
-hierarchy:
-  parent: Contributor
 id: DataCollector
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -50,8 +46,6 @@ description:
 
     Repository managers as well as data librarians working in the repository fall
     within this category.'
-hierarchy:
-  parent: Contributor
 id: DataCurator
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -70,8 +64,6 @@ description:
     from unauthorized access, is stored in accordance with industry standards, and
     is handled in accordance with the records management requirements applicable to
     it.'
-hierarchy:
-  parent: Contributor
 id: DataManager
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -86,8 +78,6 @@ description:
     resource in either electronic or print form.
 
     Works stored in more than one archive/repository may credit each as a distributor.'
-hierarchy:
-  parent: Contributor
 id: Distributor
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -103,8 +93,6 @@ description:
 
     Note: if the Editor is to be credited in place of multiple creators, the Editor’s
     name may be supplied as Creator, with “(Ed.)” appended to the name.'
-hierarchy:
-  parent: Contributor
 id: Editor
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -120,8 +108,6 @@ description:
 
     This role normally falls on the University, research center or organization where
     the data center/data repository belongs.'
-hierarchy:
-  parent: Contributor
 id: HostingInstitution
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -137,8 +123,6 @@ description:
 
     In the data industry, this may be a company “producing” DVDs that package data
     for future dissemination by a distributor.'
-hierarchy:
-  parent: Contributor
 id: Producer
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -155,8 +139,6 @@ description:
     The Project Leader is not “removed” from the work that resulted in the resource;
     he or she remains intimately involved throughout the life of the particular project
     team.'
-hierarchy:
-  parent: Contributor
 id: ProjectLeader
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -172,8 +154,6 @@ description:
 
     The manager of a project normally has more administrative responsibility than
     actual work involvement.'
-hierarchy:
-  parent: Contributor
 id: ProjectManager
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -188,8 +168,6 @@ description:
 
     This vocabulary may or may not indicate the quality, quantity, or substance of
     the person’s involvement.'
-hierarchy:
-  parent: Contributor
 id: ProjectMember
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -207,8 +185,6 @@ description:
     One of DataCite’s tasks is to assign DOI prefixes to the allocating agents who
     then assign the full, specific character string to data clients, provide metadata
     back to the DataCite registry, etc.'
-hierarchy:
-  parent: Contributor
 id: RegistrationAgency
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -224,8 +200,6 @@ description:
 
     The IDF serves as the Registration Authority for the International Standards Organisation
     (ISO) in the area/domain of Digital Object Identifiers.'
-hierarchy:
-  parent: Contributor
 id: RegistrationAuthority
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -241,8 +215,6 @@ description:
 
     Usage Notes: This person could be an author’s intellectual mentor, a person providing
     intellectual leadership in the discipline or subject domain, etc.'
-hierarchy:
-  parent: Contributor
 id: RelatedPerson
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -261,8 +233,6 @@ description:
     of data would fall under the contributorType “DataCollector.” The researcher may
     find additional data online and correlate it to the data collected for the experiment
     or study, for example.'
-hierarchy:
-  parent: Contributor
 id: Researcher
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -278,8 +248,6 @@ description:
 
     May operate at a narrower level of scope; may or may not hold less administrative
     responsibility than a project team.'
-hierarchy:
-  parent: Contributor
 id: ResearchGroup
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -292,8 +260,6 @@ description:
   cs: ''
   en: Person or institution owning or managing property rights, including intellectual
     property rights over the resource.
-hierarchy:
-  parent: Contributor
 id: RightsHolder
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -310,8 +276,6 @@ description:
     Includes organisations that provide in-kind support, through donation, provision
     of people or a facility or instrumentation necessary for the development of the
     resource, etc.'
-hierarchy:
-  parent: Contributor
 id: Sponsor
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -324,8 +288,6 @@ description:
   cs: ''
   en: Designated administrator over one or more groups/teams working to produce a
     resource, or over one or more steps of a development process.
-hierarchy:
-  parent: Contributor
 id: Supervisor
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -342,8 +304,6 @@ description:
 
     This contributor type should be applied to DOI metadata for a resource which has
     been translated from another resource.'
-hierarchy:
-  parent: Contributor
 id: Translator
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -359,8 +319,6 @@ description:
     The Work Package Leader is responsible for ensuring the comprehensive contents,
     versioning, and availability of the Work Package during the development of the
     resource.
-hierarchy:
-  parent: Contributor
 id: WorkPackageLeader
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/
@@ -379,8 +337,6 @@ description:
     the resource (as opposed to creating it), a reviewer of the resource, someone
     providing administrative services to the author (such as depositing updates into
     an online repository, analysing usage, etc.), or one of many other roles.'
-hierarchy:
-  parent: Contributor
 id: Other
 props:
   base_iri: https://vocabs.ccmm.cz/registry/codelist/AgentRole/

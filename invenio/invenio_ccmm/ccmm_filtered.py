@@ -39,7 +39,17 @@ class FilteredReader(VocabularyReader):
 
         # Apply the filter function
         flt = self.filter_cls()
-        return flt.filter(_data)
+        data = flt.filter(_data)
+
+        # Remove hierarchy.parent from items that are not in the filtered list
+        ids = {item["id"] for item in data}
+        for item in data:
+            if "hierarchy" in item and "parent" in item["hierarchy"]:
+                parent = item["hierarchy"]["parent"]
+                if parent not in ids:
+                    del item["hierarchy"]
+
+        return data
 
 
 class DescendantsOfFilter(FilterCls):

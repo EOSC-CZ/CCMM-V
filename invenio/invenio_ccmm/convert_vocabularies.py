@@ -159,7 +159,7 @@ def convert_vocabularies(vocabulary_names: list[str]) -> None:
 
 def zenodo_resource_type_array_resolution(prop: str, parent: dict[str, str]) -> None:
     values = parent[prop]
-    parent[prop] = ", ".join(values)
+    parent[prop] = ", ".join(sorted(values))
 
     if prop == "zenodo":
         for value in values:

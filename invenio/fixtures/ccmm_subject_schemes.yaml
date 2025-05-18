@@ -3,7 +3,7 @@ description:
   en: Frascati is an international classification of research and development activities.
 id: frascati
 props:
-  iri: https://vocabs.ccmm.cz/registry/SubjectCategories/
+  iri: https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/
 title:
   cs: Frascati
   en: Frascati
